@@ -19,7 +19,7 @@ namespace myFirstProject
     }
 
 
-    class Program
+    class TimePeriodRun
     {
         static void Main()
         {

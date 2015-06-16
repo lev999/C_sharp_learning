@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>myFirstProject.Program_2</StartupObject>
+    <StartupObject>myFirstProject.Selenium</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -57,10 +57,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program_2.cs" />
+    <Compile Include="Selenium.cs" />
+    <Compile Include="Cat_Lion.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="myFirstTry.cs" />
-    <Compile Include="Program_1.cs" />
+    <Compile Include="TimePeriod.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
