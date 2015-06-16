@@ -8,7 +8,7 @@ using OpenQA.Selenium.Firefox;
 
 namespace myFirstProject
 {
-    class myFirstTry 
+    class Selenium 
     {
         static void Main(string[] arg)
         {
@@ -19,7 +19,6 @@ namespace myFirstProject
                 IWebElement element = driver.FindElement(By.Id("lst-ib"));
                 element.SendKeys("Hello world string");
                 element.SendKeys(Keys.Enter);
-                System.Threading.Thread.Sleep(3000);
                 driver.Quit();
         }
 
